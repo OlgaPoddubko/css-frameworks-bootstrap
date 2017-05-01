@@ -141,7 +141,7 @@ ul {
 }
 
 .modal{
-	display: block;
+	display: none;
 	width: 400px;
 	height: 400px;
 	margin: auto;
