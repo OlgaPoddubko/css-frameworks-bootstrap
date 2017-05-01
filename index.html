@@ -16,28 +16,43 @@
 	<header>
 		<div class="navbar navbar-fixed-top" role="navigation">
 			<div class="container">
-				<a class="navbar-brand" href="#"><img src="images/logo.png" alt="REEN."></a>
-				<ul class="nav navbar-nav">
-				  <li class="active"><a href="#">Home</a></li>
-				  <li><a href="#">Portfolio</a></li>
-				  <li><a href="#">Blog</a></li>
-				  <li><a href="#">Pages</a></li>
-				  <li><a href="#">Features</a></li>
-				  <li><a href="#">Mega Menu</a></li>
-				  <li><a href="#">Contact</a></li>
-				  <li class="dropdown pull-right search">
-					  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-						<i class="glyphicon glyphicon-search"></i>
-					  </a>
-					  <div class="dropdown-menu">
-	  
-						  <form id="search" class="navbar-form search" role="search">
-							  <input class="form-control" placeholder="search" type="search">
-							  <button type="submit" class="btn btn-default search"> &#9094 </button>
-						  </form>
-					  </div>
-				  </li>
-				</ul>
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNavbar">
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"><img src="images/logo.png" alt="REEN."></a>
+				</div>
+				<div class="collapse navbar-collapse" id="siteNavbar">
+					<ul class="nav navbar-nav">
+					  <li class="active"><a href="#">Home</a></li>
+					  <li><a href="#">Portfolio</a></li>
+					  <li><a href="#">Blog</a></li>
+					  <li><a href="#">Pages</a></li>
+					  <li><a href="#">Features</a></li>
+					  <li><a href="#">Mega Menu</a></li>
+					  <li><a href="#">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					  <li class="dropdown search">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							  <i class="glyphicon glyphicon-search"></i>
+							</a>
+							<div class="dropdown-menu">	  
+								<form id="search" class="navbar-form search" role="search">
+									<div class="input-group">
+									  <input class="form-control" placeholder="search" type="search">
+									
+									  <span class="input-group-btn">
+										<button type="submit" class="btn btn-default"> &#9094 </button>
+									  </span>
+									</div>
+								</form>
+						  </div>
+					  </li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</header>
@@ -199,7 +214,7 @@
 				</div>
 			  
 				<div class="row">
-					<div class="col-md-6 top-padd">
+					<div class="col-md-6 col-sm-6 top-padd">
 						<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -214,7 +229,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-6 top-padd">
+					<div class="col-md-6 col-sm-6 top-padd">
 					<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -231,7 +246,7 @@
 				</div>
 					
 				<div class="row">
-					<div class="col-md-3 top-padd">
+					<div class="col-md-3 col-sm-3 col-xs-6 top-padd">
 						<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -240,7 +255,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-3 top-padd">
+					<div class="col-md-3 col-sm-3 col-xs-6 top-padd">
 						<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -249,7 +264,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-3 top-padd">
+					<div class="col-md-3 col-sm-3 col-xs-6 top-padd esc">
 						<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -258,7 +273,7 @@
 						</div>
 					</div>
 					
-					<div class="col-md-3 top-padd">
+					<div class="col-md-3 col-sm-3 col-xs-6 top-padd esc">
 						<div class="blind-wrapp">
 							<a href="#">
 								<span class="blind">+</span>
@@ -285,7 +300,7 @@
 				</div>
 			</div>
 		</section>
-	
+
 		<section class="career">
 			<div class="container inner">
 			  <div class="row">
@@ -357,9 +372,13 @@
 				<div class="col-md-3 col-sm-6 inner">
 					<h5>Free updates</h5>
 					<p>Conecus iure posae volor remped modis aut lor volor accabora incim resto explabo.</p>
-					<form class="subscribtion">
-						<input type="email" class="email" placeholder="Enter your email address">
-						<button type="submit" class="btn btn-default btn-submit">Subscribe</button>
+					<form>
+						<div class="input-group">
+						  <input type="email" class="form-control" placeholder="Enter your email address">
+						  <span class="input-group-btn">
+							<button type="submit" class="btn btn-default btn-submit">Subscribe</button>
+						  </span>
+						</div>
 					</form>
 				</div>
 			</div>
