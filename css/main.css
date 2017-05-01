@@ -112,7 +112,6 @@ a.navbar-brand:hover img,
 
 .navbar-fixed-top .navbar-collapse {
     max-height: 320px;
-	border-bottom: 1px solid #cccccc;
 }
 
 .dropdown-menu {
@@ -663,6 +662,10 @@ footer .input-group-btn .btn {
 
 
 @media (max-width: 1199px) {
+	.navbar-collapse {
+    	border-bottom: 1px solid #cccccc;
+	}
+	
 	.collapse{
 		background-color: #ffffff;
 	}
