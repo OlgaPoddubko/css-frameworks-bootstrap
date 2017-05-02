@@ -146,7 +146,7 @@ a.navbar-brand:hover img,
 .modal {
 	display: none;
 	width: 400px;
-	max-width: 100%;
+	max-width: 98%;
 	height: 400px;
 	margin: auto;
 	padding: 20px;
