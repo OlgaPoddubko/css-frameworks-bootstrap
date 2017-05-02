@@ -666,6 +666,10 @@ footer .input-group-btn .btn {
     	border-bottom: 1px solid #cccccc;
 	}
 	
+	.navbar-collapse.collapsing {
+		background-color: #ffffff;
+	}
+	
 	.collapse{
 		background-color: #ffffff;
 	}
